@@ -65,7 +65,8 @@
     background:#095b61;
     padding: 2px;
     border-radius: 10px;
-    margin: 0 !important; 
+    margin: 0 !important;
+     
 }
 
 .login{
@@ -93,6 +94,13 @@
     transition: 2s;
 }
 
+.slide img:hover{
+    cursor: pointer;
+    box-shadow: 0 0.3rem 0 #7dcf2a;
+    transition: transform 150ms;
+    transform: scale(1.08);
+}
+
 .slide{
     position: relative;
     height: 130vh;
@@ -105,6 +113,7 @@
     background-size: cover;
     border-bottom: 2px #7dcf2a;
 }
+
 
 .navigation-manual{
     position: absolute;
